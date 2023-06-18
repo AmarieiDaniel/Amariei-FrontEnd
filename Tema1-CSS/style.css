@@ -1,0 +1,20 @@
+label {
+    color:#87CEEB
+}
+[type="text"] {
+    border: 2px solid green;
+    padding: 5px;
+}
+[type="email"] {
+    background:blue;
+    padding: 5px;
+}
+[type="submit"] {
+    background-color: green;
+}
+[type="reset"] {
+    background-color: goldenrod;
+}
+fieldset {
+    background-color: salmon;
+}
