@@ -1,0 +1,49 @@
+.parent{
+    background-color:cornflowerblue;
+    width: 600px;
+    height: 250px;
+    border-radius: 20px;
+    text-align: center;
+    border: 7px dotted rgb(48, 11, 11);
+    position: relative;
+}
+.child1 {
+    background-color: teal;
+    width: 250px;
+    height: 200px;
+    border-radius: 20px;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    border-style: dashed;
+    border-color:purple;
+    border-width: 2px;
+
+}
+
+.child2 {
+    background-color: #8565cf;
+    width: 250px;
+    height: 200px;
+    border-radius: 20px;
+    position: absolute;
+    border-style: dashed;
+    border-color: blueviolet;
+    border-width: 2px;
+    top: 50px;
+    left:173px;
+    z-index: 1;
+}
+.child3 {
+    background-color: rgba(118, 129, 14, 0.9);
+    width: 250px;
+    height: 200px;
+    border-radius: 20px;
+    border-style: dashed;
+    border-color: blueviolet;
+    border-width: 2px;
+    top: 35px;
+    left:335px;
+    position: absolute;
+    
+}
