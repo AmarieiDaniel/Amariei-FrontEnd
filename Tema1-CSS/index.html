@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pizza Order</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <form>
+        <fieldset>
+         <legend>Pizza Order </legend><br/>
+           <input required type="text" name="name" id="name" placeholder="Your name" size="10" minlength="3" maxlength="10">
+        <br/>
+        <br/>
+         <input required type="email" name="email" id="email" placeholder="Your email address">
+        <br/>
+        <br/>
+        <label>
+        <span>Topping:</span>
+        <input type="radio" value="supreme" name="topping"/>
+        <span>Supreme</span>
+        </label>
+        <label>
+         <input type="radio" value="vegetarian" name="topping"/>
+          <span>Vegetarian</span>
+        </label>
+        <label>
+         <input type="radio" value="hawaian" name="topping"/>
+          <span>Hawaian</span>
+            <br/>
+            <br/>
+          
+            <label>
+        <span>Sauce:
+                <select name="sauce"> 
+                <option value="Tomato">Tomato</option> 
+                <option value="mango"selected>Mango</option> 
+                <option value="rosii dulce">rosii dulce</option> 
+                <option value="picant">picant</option> 
+                <option value="maioneza">maioneza</option> 
+                <option value="maioneza cu usturoi">maioneza cu usturoi></option>
+                </select></span><br/><br/>
+        <span>Extras:</span>
+            <input type="checkbox" name="cheese" checked>
+            <span>Cheese</span>
+            </label>
+            <label>
+            <input type="checkbox" name="onions" >
+            <span>Onions</span>
+            </label>
+            <label>
+            <input type="checkbox" name="olives" checked>
+            <span>Olives</span>
+            </label>
+        </br>
+        </br>
+        </br>
+            <label for="delivery-date">Data de livrare:</label>
+        <input type="date" id="delivery-date" name="delivery-date" required placeholder="Selectați data de livrare" value="2023-06-10"><br><br>
+        <p>Delivery instructions</p>
+        <textarea required name="text" cols="30" rows="6" placeholder="details for the delivery person, for example a landmark"></textarea>
+        </br>
+        </br>
+        <input type="submit" value="send order"/>
+        <input type="reset"/> 
+        <br/>
+        <br/>
+        </fieldset>
+    </form>
+    </body>
+</html>

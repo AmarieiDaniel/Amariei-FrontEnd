@@ -1,0 +1,33 @@
+.container {
+    background-color: gray;
+    width: 300px;
+    height: 300px;
+    padding: 5px;
+    
+}
+  
+.square {
+    width: 100px;
+    height: 100px;
+}
+  
+.yellow {
+    position: relative;
+    background-color: yellow;
+    top: 0px;
+}
+  
+.blue {
+    background-color: blue;
+    position: absolute;
+    top: 56px;;
+    left: 60px;
+}
+  
+.green {
+    background-color: green;
+    position: relative;
+    bottom: 0px;
+    left: 100px;
+}
+  
