@@ -1,0 +1,83 @@
+body {
+  margin: 100px;
+  padding: 100px;
+  font-family: "Segoe UI";
+  background-color: rgb(83, 83, 83);
+}
+@keyframes slideDown {
+  to {
+    top: 10px;
+  }
+}
+
+@keyframes slideRight {
+  to {
+    left: 10px;
+  }
+}
+
+@keyframes slideUp {
+  to {
+    bottom: 100px;
+  }
+}
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+.container {
+  position: relative;
+  width: 700px;
+  height: 500px;
+  margin: 50px auto;
+  border: 1px solid #ccc;
+  background-color: rgb(45, 137, 199);
+  color: aliceblue;
+  border-radius: 3px;
+}
+
+.text-top,
+.text-left,
+.button {
+  opacity: 0;
+}
+
+.text-top {
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: slideDown 1s forwards 0.5s, fadeIn 1s forwards 0.5s;
+}
+
+.text-left {
+  position: absolute;
+  left: -150px;
+  top: 50%;
+  transform: translateY(-50%);
+  animation: slideRight 1s forwards 1s, fadeIn 1s forwards 1s;
+  text-align: center;
+  padding: 5px;
+}
+/* .button {
+  position: absolute;
+  bottom: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: slideUp 1s forwards 1.5s, fadeIn 1s forwards 1.5s;
+  
+} */
+.button {
+  position: absolute;
+  bottom: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: slideUp 1s forwards 1.5s, fadeIn 1s forwards 1.5s;
+  border-radius: 3px;
+  border-style: solid;
+  padding: 10px 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: aliceblue;
+}
