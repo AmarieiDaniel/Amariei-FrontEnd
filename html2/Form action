@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Index 3</title>
+    </head>
+    <body>
+        <h1> Lista</h1>
+        <form action="Produse.html" method="get">
+        <input type="text" placeholder="Nume" name="nume" />
+        <br/>
+       <input type="submit">
+       <input type="reset">     
+    </form>
+    </body>
+</html>
