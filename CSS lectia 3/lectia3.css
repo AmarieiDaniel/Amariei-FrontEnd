@@ -1,0 +1,19 @@
+.container{
+    border: 2px solid red;
+    background-color: #6a6;
+    padding: 10px;
+}
+ol {
+    margin: 15px;
+    background-color: #DE1e7E;
+}
+P {
+    width: 500px;
+    height: 300px;
+    border: 2px dotted;
+    background-color: #fb1;
+}
+a {
+    border-bottom: dashed blue;
+    background-color: #a1a1a1;
+}
